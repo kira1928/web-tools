@@ -71,7 +71,7 @@ class FileSplit extends React.Component<Props, IState> {
       console.error(e);
       alert((e as Error).message);
     }
-    const outputFileByteSize = outputFileSizeNumber * unit;
+    const outputFileByteSize = Math.round(outputFileSizeNumber * unit);
     const inputFile = inputFiles?.item(0);
     if (!inputFile) {
       alert("无法获取输入文件");
