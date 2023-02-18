@@ -1,0 +1,4 @@
+/* 默认的 500 对微软雅黑没效果 */
+:where(.css-dev-only-do-not-override-diro6f).ant-divider-horizontal.ant-divider-with-text {
+  font-weight: 600;
+}
