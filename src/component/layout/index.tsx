@@ -10,7 +10,7 @@ class RootLayout extends React.Component<React.PropsWithChildren> {
   render() {
     return (
       <Layout className="all-layout">
-        <Header className="header small-header">
+        <Header>
           <h3 className="logo-text">Web-tools</h3>
         </Header>
         <Layout>
