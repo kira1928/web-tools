@@ -4,7 +4,6 @@ import { Layout, Menu } from "antd";
 import { MonitorOutlined } from "@ant-design/icons";
 import "./layout.css";
 
-const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
 class RootLayout extends React.Component<React.PropsWithChildren> {
