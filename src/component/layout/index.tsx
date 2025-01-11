@@ -35,6 +35,10 @@ class RootLayout extends React.Component<React.PropsWithChildren> {
                         key: "1",
                         label: <Link to="/file-split">文件分割</Link>,
                       },
+                      {
+                        key: "2",
+                        label: <Link to="/file-byteswap">文件字节对调</Link>,
+                      },
                     ],
                   },
                 ]}
